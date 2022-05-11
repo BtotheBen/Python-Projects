@@ -30,13 +30,13 @@ def ask():
         deu_ask = keys[randomnum]
         eng_ask = Vocab.get(keys[randomnum])
 
-        answ = input("Was ist die Übersetzung von " + deu_ask + " ?: ")
+        answ = input("What is the translation of: " + deu_ask + " ?: ")
         if answ == eng_ask:
-            print("Geil richtig!\n")
+            print("Good Job, you are right!\n")
         elif answ == 'q':
             break
         else:
-            print("Leider Falsch, die richtige Antwort wäre: " + eng_ask + '\n')
+            print("Wrong, the right answer would be: " + eng_ask + '\n')
 
 while True:
     mode = input('\nq --> quit ; add ; view ; ask: ')
