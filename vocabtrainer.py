@@ -1,5 +1,3 @@
-
-
 from random import randint, random
 
 
@@ -15,6 +13,7 @@ def add():
         f.write(deu + "|" + eng + '\n')
 
 def ask():
+    print("You can quit at all times with: q")
     Vocab = {
     }
     with open('vocab.txt', 'r') as f:
@@ -56,4 +55,3 @@ while True:
     else:
         print('Keine Möglichkeit!\n')
         continue
-    
