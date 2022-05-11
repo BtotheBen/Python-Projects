@@ -36,7 +36,7 @@ def ask():
         elif answ == 'q':
             break
         else:
-            print("Wrong, the right answer would be: " + eng_ask + '\n')
+            print("Wrong!, the right answer would be: " + eng_ask + '\n')
 
 while True:
     mode = input('\nq --> quit ; add ; view ; ask: ')
